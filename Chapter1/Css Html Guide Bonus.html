@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quick-Reference Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-heading">Your Friendly HTML & CSS Quick-Reference Guide</h1>
+        <p>Hey there! This guide will walk you through some essential HTML tags and CSS properties you'll use often when building websites. Let’s dive in!</p>
+    </header>
+    
+    <section>
+        <h2 id="html-tags-title">HTML Tags: The Building Blocks</h2>
+        
+        <article>
+            <h3>Headings: &lt;h1&gt; - &lt;h6&gt;</h3>
+            <p>Headings are super important because they help structure your content. Think of them as chapter titles in a book. &lt;h1&gt; is the biggest, and &lt;h6&gt; is the smallest. Keep them organized to make your content easy to follow!</p>
+            <pre><code>&lt;h1&gt;Main Heading&lt;/h1&gt;
+&lt;h2&gt;Subheading&lt;/h2&gt;
+&lt;h3&gt;Smaller Heading&lt;/h3&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Paragraph: &lt;p&gt;</h3>
+            <p>This is your basic block of text. Whenever you need a paragraph, just wrap it in &lt;p&gt; tags!</p>
+            <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Anchor: &lt;a&gt;</h3>
+            <p>Anchors are your links — they let you create hyperlinks to other pages or sections. Just use the &lt;a&gt; tag with a href attribute to link to any URL.</p>
+            <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Image: &lt;img&gt;</h3>
+            <p>Need to add an image to your webpage? Use the &lt;img&gt; tag! Just make sure to add the "src" attribute to tell the browser where the image is located and the "alt" attribute for accessibility.</p>
+            <pre><code>&lt;img src="image.jpg" alt="Description of image"&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Lists: &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</h3>
+            <p>Use &lt;ul&gt; for unordered (bulleted) lists and &lt;ol&gt; for ordered (numbered) lists. Then, each item in the list goes inside an &lt;li&gt; tag.</p>
+            <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+    &lt;li&gt;First&lt;/li&gt;
+    &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+        </article>
+    </section>
+    
+    <section>
+        <h2 id="css-properties-title">CSS Properties: Styling Your Web Pages</h2>
+        
+        <article>
+            <h3>Color:</h3>
+            <p>Color is an easy way to make your text pop! You can set the color of any text by using the color property in your CSS. Experiment with different colors to match your website's vibe.</p>
+            <pre><code>p {
+    color: blue;}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Background-color:</h3>
+            <p>The background-color property lets you set the background color of an element. You can change the background of your entire page, or just a specific section.</p>
+            <pre><code>body {
+    background-color: #f4f4f4;}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Font-size:</h3>
+            <p>Font size is key to making your text readable. The font-size property helps you set the size of your text. Play around with different sizes to see what works best for your design.</p>
+            <pre><code>h1 {
+    font-size: 24px;}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Margin:</h3>
+            <p>Margins create space around elements, pushing them away from other elements. It’s like giving your content some breathing room!</p>
+            <pre><code>div {
+    margin: 20px;}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Padding:</h3>
+            <p>Padding is the space inside an element, between the content and the border. Use it to make sure your content isn’t too squished!</p>
+            <pre><code>p {
+    padding: 10px;}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Border:</h3>
+            <p>Borders are great for defining the edges of elements. You can customize the thickness, style, and color of the border to make things stand out.</p>
+            <pre><code>div {
+    border: 2px solid black;}</code></pre>
+        </article>
+
+        <article>
+            <h3>Width:</h3>
+            <p>The width property lets you control the width of an element. Use it to make your elements fit perfectly within your layout!</p>
+            <pre><code>div {
+    width: 100%;}</code></pre>
+        </article>
+
+        <article>
+            <h3>Height:</h3>
+            <p>Just like width, the height property helps control the height of an element. Perfect for making sure everything fits neatly on the page.</p>
+            <pre><code>div {
+    height: 200px;}</code></pre>
+        </article>
+    </section>
+</body>
+</html>
