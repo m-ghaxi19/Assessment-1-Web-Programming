@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/* Header */
+header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Welcome Section */
+.welcome {
+    width: 65%;
+}
+
+.welcome h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.welcome img {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Sidebar */
+.line-up {
+    background-color: #172d67;
+    color: white;
+    padding: 20px;
+    width: 30%;
+}
+
+.line-up h2 {
+    text-decoration: underline;
+}
+
+.line-up ul {
+    list-style: none;
+    padding: 0;
+}
+
+.line-up ul li {
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 48%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
